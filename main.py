@@ -1,4 +1,4 @@
-APP_TITLE = "Warehouse Inventory"
+APP_TITLE = "Warehouse Stock Alerts"
 REORDER_LEVEL = 10
 
 inventory = [
