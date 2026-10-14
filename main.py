@@ -1,4 +1,5 @@
 APP_TITLE = "Inventory Monitoring Dashboard"
+APP_TITLE = "Warehouse Stock Alerts"
 REORDER_LEVEL = 10
 
 inventory = [
