@@ -1,5 +1,5 @@
 APP_TITLE = "Warehouse Inventory"
-REORDER_LEVEL = 95
+REORDER_LEVEL = 9
 
 inventory = [
     {"name": "Keyboard", "stock": 5},
