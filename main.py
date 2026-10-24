@@ -14,5 +14,10 @@ def show_inventory():
     for item in inventory:
         print(f"{item['name']}: {item['stock']} units")
 
-# Call the function
+def show_low_stock():
+    print("\nLow-stock items")
+    for item in inventory:
+        if item["stock"] < REORDER_LEVEL:
+            print(f"{item['name']}: reorder needed ({item['stock']} units)")
 show_inventory()
+show_low_stock()
